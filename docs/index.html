@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Una pequeña web de demostración para probar cambios de texto con Pymes Control.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#f6f4ec">
+    <title>Mi web de prueba · Pymes Control</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="page">
+      <header class="site-header">
+        <a class="brand" href="./" aria-label="Mi web de prueba, inicio"><span class="brand-mark" aria-hidden="true">p.</span><span>Mi web de prueba</span></a>
+        <span class="demo-label">DEMOSTRACIÓN</span>
+      </header>
+      <main>
+        <section class="hero" aria-labelledby="editable-title">
+          <div class="eyebrow"><span aria-hidden="true"></span> Un pequeño comienzo</div>
+          <h1 id="editable-title">Una web sencilla para grandes ideas.</h1>
+          <p class="intro">Un espacio pequeño, claro y listo para estrenar. Este es el primer paso de tu próxima web.</p>
+          <div class="actions">
+            <button id="refresh-content" type="button"><span>Actualizar contenido</span><span aria-hidden="true">↻</span></button>
+            <p id="content-status" role="status" aria-live="polite">Cargando el texto de la web…</p>
+          </div>
+          <noscript><p>Activa JavaScript para ver los cambios de texto publicados.</p></noscript>
+        </section>
+        <aside class="note" aria-label="Sobre esta demostración">
+          <span class="note-number" aria-hidden="true">01 /</span>
+          <div><h2>Un texto. Tu primer cambio.</h2><p>El titular grande es el texto editable de esta demostración. Cuando publiques un cambio desde Pymes Control, podrás verlo aquí.</p></div>
+          <span class="note-flower" aria-hidden="true">✳</span>
+        </aside>
+      </main>
+      <footer><span>Hecha para probar, aprender y empezar.</span><span>Pymes Control <span aria-hidden="true">↗</span></span></footer>
+    </div>
+  </body>
+</html>
