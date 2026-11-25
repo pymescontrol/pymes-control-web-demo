@@ -1,5 +1,65 @@
 {
+  "_control": {
+    "schemaVersion": 1,
+    "editableFields": [
+      "home.webModernTitle",
+      "home.description",
+      "home.image",
+      "home.imageAlt",
+      "business.description",
+      "business.hours",
+      "sections.about.title",
+      "sections.about.text",
+      "products.manzanas.name",
+      "products.manzanas.description",
+      "products.manzanas.price",
+      "products.manzanas.unit",
+      "products.manzanas.image",
+      "products.manzanas.imageAlt",
+      "products.naranjas.name",
+      "products.naranjas.description",
+      "products.naranjas.price",
+      "products.naranjas.unit",
+      "products.naranjas.image",
+      "products.naranjas.imageAlt"
+    ],
+    "imageOrigins": [
+      "https://images.unsplash.com",
+      "https://pymescontrol.github.io"
+    ]
+  },
   "home": {
-    "webModernTitle": "Mi primer cambio desde ChatGPT"
+    "webModernTitle": "Mi primer cambio desde ChatGPT",
+    "description": "Textos, precios y fotos que puedes actualizar desde tu conversación.",
+    "image": "https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=1000&q=80",
+    "imageAlt": "Selección de fruta de demostración"
+  },
+  "business": {
+    "description": "Esta es una web de pruebas de Pymes Control. Todos los productos y precios son ficticios.",
+    "hours": "Lunes a viernes: de 9:00 a 14:00"
+  },
+  "products": {
+    "manzanas": {
+      "name": "Manzanas de ejemplo",
+      "description": "Un producto de demostración para probar textos y precios.",
+      "price": "2.50",
+      "unit": "kg",
+      "image": "https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=1000&q=80",
+      "imageAlt": "Fruta fresca de demostración"
+    },
+    "naranjas": {
+      "name": "Naranjas de ejemplo",
+      "description": "Otro producto con su precio y fotografía independientes.",
+      "price": "1.90",
+      "unit": "kg",
+      "image": "https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=1000&q=80",
+      "imageAlt": "Selección de frutas de demostración"
+    }
+  },
+  "sections": {
+    "about": {
+      "title": "Una web que puedes mantener al día",
+      "text": "Prueba un cambio, revisa el resultado y confirma cuando esté listo."
+    }
   }
 }
