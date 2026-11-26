@@ -42,7 +42,7 @@
     "manzanas": {
       "name": "Manzanas de ejemplo",
       "description": "Un producto de demostración para probar textos y precios.",
-      "price": "2.50",
+      "price": "3.25",
       "unit": "kg",
       "image": "https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=1000&q=80",
       "imageAlt": "Fruta fresca de demostración"
